@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>vue-dianshang</title>
+    <style type="text/css">
+      html{font-size: 100px;}
+    </style>
+  </head>
+  <body>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </body>
+  <script src="static/mui.js"></script>
+  <script type="text/javascript">
+  	mui.init({
+			swipeBack:true //启用右滑关闭功能
+		});
+    var slider = mui("#slider");
+      slider.slider({
+        interval:3000
+      })
+  </script>
+</html>
